@@ -39,4 +39,36 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="cactus.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cake.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="catcus2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dino1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dino2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dino3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dino4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="dino5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rock.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="rocks.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>

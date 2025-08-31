@@ -144,6 +144,18 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Obstacle.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="cactus.png" />
+    <Image Include="cake.png" />
+    <Image Include="catcus2.png" />
+    <Image Include="dino1.png" />
+    <Image Include="dino2.png" />
+    <Image Include="dino3.png" />
+    <Image Include="dino4.png" />
+    <Image Include="dino5.png" />
+    <Image Include="rock.png" />
+    <Image Include="rocks.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

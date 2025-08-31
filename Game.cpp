@@ -50,14 +50,22 @@ void Game::handleInput(const sf::Event& e) {
     }
     if (gameState == State::Playing && e.type == sf::Event::KeyPressed) {
         if (e.key.code == sf::Keyboard::Space) {
-            //dino.jump();
+            dino.jump(1.2);
         }
     }
     if (gameState == State::GameOver && e.type == sf::Event::KeyPressed && e.key.code == sf::Keyboard::Enter) {
-       reset();
+       dino.reset();
     }
 }
 
+void Game::update() {
+    float dt = 0.1f;
+    if (gameState == State::Playing) {
+        dino.update(dt); //run or jump
+		checkCollisions();//stop game
+        //updateScore();//score 
+    }
+}
 void Game::loadAssets() {
     //font load check
     if (!font.loadFromFile("assets/start.ttf")) {

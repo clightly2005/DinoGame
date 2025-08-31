@@ -26,13 +26,10 @@ private:
 	void handleInput(const sf::Event& e);
 	void update();
 	void render();
-	void reset();
 	void loadAssets();
 	void checkCollisions();
-	
 	void drawObstacles();
 public:
 	void run();
 	Game();
-	void getInput();
 };
